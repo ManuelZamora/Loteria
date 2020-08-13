@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/degradado"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="¿Listo Para Jugar?"
+        android:textSize="20dp"
+        android:textColor="@color/blanco"
+        />
+
+    <ImageView
+        android:id="@+id/img_vwStart"
+        android:layout_width="157dp"
+        android:layout_height="128dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/lote" />
+
+    <TextView
+        android:id="@+id/txt_vwInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="50dp"
+        android:layout_toStartOf="@id/img_vwStart"
+        android:text="@string/Empezar"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_vwBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/board"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/txt_vwReleasedCards"
+        android:layout_toEndOf="@id/txt_vwCardCount"
+        android:layout_margin="8dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/txt_vwReleasedCards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/released_cards"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/img_vwStart"
+        android:layout_marginHorizontal="8dp"/>
+
+    <TextView
+        android:id="@+id/txt_vwCardCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@id/txt_vwReleasedCards" />
+
+    <RelativeLayout
+        android:layout_width="353dp"
+        android:layout_height="373dp"
+        android:layout_below="@+id/img_vwStart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/img_vw0"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_marginVertical="4dp"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw1"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/img_vw0"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw2"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/img_vw1"
+            android:layout_marginVertical="4dp"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw3"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/img_vw2"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw4"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_marginVertical="4dp"
+            android:layout_toEndOf="@id/img_vw0"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw5"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/img_vw4"
+            android:layout_toEndOf="@id/img_vw1"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw6"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/img_vw5"
+            android:layout_marginVertical="4dp"
+            android:layout_toEndOf="@id/img_vw2"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw7"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/img_vw6"
+            android:layout_toEndOf="@id/img_vw3"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw8"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_marginVertical="4dp"
+            android:layout_toEndOf="@id/img_vw4"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw9"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/img_vw8"
+            android:layout_toEndOf="@id/img_vw5"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw10"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/img_vw9"
+            android:layout_marginVertical="4dp"
+            android:layout_toEndOf="@id/img_vw6"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw11"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/img_vw10"
+            android:layout_toEndOf="@id/img_vw7"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw12"
+            android:layout_width="83dp"
+            android:layout_height="82dp"
+            android:layout_marginVertical="4dp"
+            android:layout_toEndOf="@id/img_vw8"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw13"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/img_vw12"
+            android:layout_toEndOf="@id/img_vw9"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw14"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/img_vw13"
+            android:layout_marginVertical="4dp"
+            android:layout_toEndOf="@id/img_vw10"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+        <ImageView
+            android:id="@+id/img_vw15"
+            android:layout_width="85dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/img_vw14"
+            android:layout_toEndOf="@id/img_vw11"
+            android:contentDescription="@string/image"
+            android:src="@drawable/lote" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9b9b9b</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="verdemedio">#E0F2F1</color>
+    <color name="cafe">#6d4c41</color>
+    <color name="negro">#000000</color>
+    <color name="carnezi">#ef5350</color>
+    <color name="blanco">#ffffff</color>
+</resources>
